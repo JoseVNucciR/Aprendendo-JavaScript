@@ -1,0 +1,10 @@
+= - recebe
+
+var n1=3
+
+nome das variaveis - identificador
+-pode comecar com letra $ e _
+-nao pode comecar com nmeros
+-nao pode conter espaços 
+
+Data types: number (infinity,NaN), string, boolean, undefined, object (array, null), function
