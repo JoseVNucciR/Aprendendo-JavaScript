@@ -8,3 +8,8 @@ nome das variaveis - identificador
 -nao pode conter espaços 
 
 Data types: number (infinity,NaN), string, boolean, undefined, object (array, null), function
+
+typeof: descobre qual o tipo de Data
+exemplo: 
+    var n = 200
+    typeof n --> 'number'

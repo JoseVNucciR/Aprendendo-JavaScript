@@ -1,0 +1,7 @@
+Formatando Strings:
+
+var s = 'JavaScript'
+    
+    'Eu estou aprendendo s' -> não faz interpolação (fica "Eu estou aprendendo s)
+    'Eu estou aprendendo' + s -> usa concatenação (fica "Eu estou aprendendo JavaScript)
+    `Eu estou aprendendo ${s}` -> usa template string
