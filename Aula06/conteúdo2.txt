@@ -5,3 +5,27 @@ var s = 'JavaScript'
     'Eu estou aprendendo s' -> não faz interpolação (fica "Eu estou aprendendo s)
     'Eu estou aprendendo' + s -> usa concatenação (fica "Eu estou aprendendo JavaScript)
     `Eu estou aprendendo ${s}` -> usa template string
+
+Exemplo:
+
+    nome = 'José'
+    idade = '19'
+    nota = '10'
+    - 'O alumo ' + nome ' com ' + idade ' anos tirou a nota ' + nota = `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+    -- 'O aluno José com 19 anos tirou a nota 10'
+
+Mais funções:
+
+    s.length - quantos caracteres a string tem 
+    s.toUpperCase() - tudo para 'MAIÚSCULAS'
+    s.toLowerCase() - tudo para 'minúsculas'
+
+    Mexendo em números:
+
+    var n1 = 1545.5
+    n1.toFixed(2) -> 2 casas decimais (1545.50)
+    n1.toFixed(2).replace ('.', ',') -> faz o número passar de 1545.50 para 1545,50
+
+Mandando o valor para a moeda desejada:
+
+    n1.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'})
